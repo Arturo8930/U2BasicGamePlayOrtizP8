@@ -436,6 +436,7 @@ GameObject:
   - component: {fileID: 9078919076459600697}
   - component: {fileID: 5593998008022722434}
   - component: {fileID: 5043127988772895802}
+  - component: {fileID: 2655374489872285570}
   m_Layer: 0
   m_Name: Moo Snuckle (Moose)
   m_TagString: Untagged
@@ -502,6 +503,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+--- !u!114 &2655374489872285570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5776900534827699398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1281d8cbf02b8444aa82c29267092998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6190681324404617461
 GameObject:
   m_ObjectHideFlags: 0

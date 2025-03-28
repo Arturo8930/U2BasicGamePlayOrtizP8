@@ -521,6 +521,8 @@ GameObject:
   - component: {fileID: 635409267100667382}
   - component: {fileID: 4066763366314452017}
   - component: {fileID: 2956217020795651612}
+  - component: {fileID: 5467463353030853948}
+  - component: {fileID: 3507061595095050261}
   m_Layer: 0
   m_Name: John Doe (Doe)
   m_TagString: Untagged
@@ -587,6 +589,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &5467463353030853948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5848390733412420855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1281d8cbf02b8444aa82c29267092998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &3507061595095050261
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5848390733412420855}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.13897763, y: 0.8666684, z: 0.38302097}
+  m_Center: {x: 0.010597897, y: -0.06666627, z: 0.056717016}
 --- !u!1 &6939316336611744787
 GameObject:
   m_ObjectHideFlags: 0
