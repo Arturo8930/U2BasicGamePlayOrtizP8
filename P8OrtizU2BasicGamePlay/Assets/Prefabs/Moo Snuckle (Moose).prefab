@@ -437,6 +437,8 @@ GameObject:
   - component: {fileID: 5593998008022722434}
   - component: {fileID: 5043127988772895802}
   - component: {fileID: 2655374489872285570}
+  - component: {fileID: 3009967855653250397}
+  - component: {fileID: 3897779774737297113}
   m_Layer: 0
   m_Name: Moo Snuckle (Moose)
   m_TagString: Untagged
@@ -513,6 +515,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1281d8cbf02b8444aa82c29267092998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &3009967855653250397
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5776900534827699398}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20950979, y: 1, z: 0.42241782}
+  m_Center: {x: -0.002495419, y: 0, z: 0.06700772}
+--- !u!114 &3897779774737297113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5776900534827699398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc8d36d4377f1284aa397b4a79a6eeac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6190681324404617461
