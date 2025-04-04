@@ -441,7 +441,7 @@ GameObject:
   - component: {fileID: 3897779774737297113}
   m_Layer: 0
   m_Name: Moo Snuckle (Moose)
-  m_TagString: Untagged
+  m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
