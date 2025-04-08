@@ -524,6 +524,7 @@ GameObject:
   - component: {fileID: 5467463353030853948}
   - component: {fileID: 3507061595095050261}
   - component: {fileID: 1227231603376478239}
+  - component: {fileID: 8067649671112621178}
   m_Layer: 0
   m_Name: John Doe (Doe)
   m_TagString: Animal
@@ -635,6 +636,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc8d36d4377f1284aa397b4a79a6eeac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8067649671112621178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5848390733412420855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a558d913a947e4ca2d5c4c609644ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hungerSlider: {fileID: 0}
+  amountToBeFed: 2
 --- !u!1 &6939316336611744787
 GameObject:
   m_ObjectHideFlags: 0

@@ -609,6 +609,7 @@ GameObject:
   - component: {fileID: 6665724798619224813}
   - component: {fileID: 4647807608722085803}
   - component: {fileID: 135399076217252983}
+  - component: {fileID: 2411434676526885918}
   m_Layer: 0
   m_Name: Tails (Fox)
   m_TagString: Animal
@@ -722,6 +723,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc8d36d4377f1284aa397b4a79a6eeac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2411434676526885918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6999507428674578238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a558d913a947e4ca2d5c4c609644ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hungerSlider: {fileID: 0}
+  amountToBeFed: 1
 --- !u!1 &7280000198374748833
 GameObject:
   m_ObjectHideFlags: 0
